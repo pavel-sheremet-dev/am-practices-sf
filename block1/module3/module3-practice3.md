@@ -49,7 +49,7 @@ Manual Trigger
 
 **Що зробити.**
 
-- Створити новий workflow, назвати `smachno-requests-handler`.
+- Створити новий workflow, назвати `smachno-feedback-handler`.
 - Додати **Manual Trigger** — запуск кнопкою прямо в редакторі.
 - Додати **Edit Fields**, режим ручного маплення. Створити поле `ticket` типу String зі значенням першого тестового звернення.
 - Виконати workflow і подивитись на вихід ноди: `{ "ticket": "..." }`.
